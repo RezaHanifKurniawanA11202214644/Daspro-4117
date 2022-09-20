@@ -1,0 +1,66 @@
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main()
+{
+   //cout << "Hello world!" << endl;
+   //printf("Hello!");
+
+
+/*
+//Ini bahasa iostream
+    int a;
+    cout << "\nMasukan Angka: ";
+    cin >> a;
+    cout << "Angka Anda: " << a << endl;
+
+//ini bahasa stdio.h
+    printf("\nMasukan Angka Kedua: ");
+    scanf("%d", &a);
+    printf("Angka Kedua: %d", a);
+    */
+
+/*
+    int a, b, c, hasil;
+    //data Mhs, Matkul, asalKota;
+
+    int x;
+    int y;
+    int z;
+
+    a = 2;
+    b = 4;
+    c = 8;
+
+    //cara 1
+    cout << a + b + c <<endl;
+
+   //cara 2
+    hasil=a + b + c;
+    cout << "Hasil: " << hasil << endl;
+*/
+
+
+//Luas Lingkaran
+
+    //cara 1 memakai phi 3.14
+    float phi, r1, r2, hasil;
+    phi= 3.14;
+    r1= 10;
+    r2= 10;
+    hasil= phi * r1 * r2;
+    cout << "Hasil: " << hasil << endl;
+
+
+    //cara 2 memakai phi 22/7
+    float phi, r1, r2, hasil;
+    phi= 22;
+    r1= 14;
+    r2= 14;
+    hasil= (phi * r1 * r2) / 7;
+    cout << "hasil: " << hasil << endl;
+
+    return 0;
+}
