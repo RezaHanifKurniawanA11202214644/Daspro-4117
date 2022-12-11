@@ -17,6 +17,7 @@ int main()
         if (b < i) {
             b=i;
         }
+    i++;
     }while(true);
 
     cout << "\n""Max = " << b << endl;
